@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoológico</title>
+</head>
+<body>
+    <h1>Bienvenido al Zoológico</h1>
+    <form action="#" method="post">
+
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre " required> 
+        <br><br>
+
+        <label for="apellido">Apellido</label><br>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido " required>
+        <br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required><br><br>
+
+        <label for="provincia">Provincia:</label>
+        <input type="text" id="provincia" name="provincia" required><br><br>
+
+        <label for="ciudad">Ciudad:</label><br>
+        <input type="text" id="ciudad" name="ciudad" required><br><br>
+
+
+<label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+
+ <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" placeholder="titular de la consulta" required><br><br>
+
+
+       
+<label for="color">Color favorito del animal:</label><br>
+        <input type="color" id="color" name="color" required><br><br>
+
+
+  <label for="fecha_visita">fecha de visita:</label><br>
+        <input type="date" id="fecha_visita" name="fecha_visita" required><br><br>
+
+<label for="numero_entradas">Número de entradas:</label>
+        <input type="number" id="numero_entradas" name="numero_entradas" required><br><br>
+
+      <label for="tipo_entrada">Tipo de entrada:</label>
+        <select id="tipo_entrada" name="tipo_entrada" required>
+            <option value="">Seleccione un tipo</option>
+            <option value="adulto">Adulto</option>
+            <option value="niño">Niño</option>
+            <option value="senior">Senior</option>
+        </select><br><br>
+
+ <label for="expectativa">Expectativa:</label>
+        <input type="range" id="expectativa" name="expectativa" min="1" max="10" required><br><br>
+
+        
+<label for="sitio_web">Sitio web:</label><br>
+        <input type="url" id="sitio_web" name="sitio_web" required><br><br>
+
+<label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br> 
+
+<input type="checkbox" id="informacion" name="informacion">
+        <label for="informacion">Acepta recibir información del zoológico</label> 
+        <br><br>
+
+        <input type="submit" value="Enviar">
+
+
+
+
+    </form>
+</body>
+</html>
